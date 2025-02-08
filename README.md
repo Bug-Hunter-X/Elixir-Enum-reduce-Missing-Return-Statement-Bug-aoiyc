@@ -1,0 +1,3 @@
+# Elixir Enum.reduce Bug
+
+This repository demonstrates a common error in Elixir's `Enum.reduce` function where a missing `return` statement in the anonymous function leads to unexpected behavior. The code attempts to sum only the even numbers in a list; however, due to the missing return statement, it doesn't produce the expected output.  The solution demonstrates the correct way to use `Enum.reduce` with a proper return statement, ensuring accurate calculations.
